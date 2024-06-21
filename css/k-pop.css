@@ -1,0 +1,38 @@
+body{
+    color: #060a32;
+    margin: 0px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    #container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .sidebar {
+        width: 20%;
+        margin: 10px 0 10px 0;
+    }
+    
+    .sidebar ul {
+        margin: 0px;
+        padding: 0 10px 0 10px;
+    }
+    
+    .sidebar li {
+        display: block;
+        margin: 0px 0px 5px 0px;
+        padding: 5px 5px 5px 5px;
+        border-right: solid 2px #cccccc;
+        background-color: #eeeeee;
+    }
+    
+    .sidebar a {
+        color: #444444;
+        text-decoration: none;
+    }
+    .content {
+        width: 80%;
+        margin: 10px 0 10px 0;
+    }
