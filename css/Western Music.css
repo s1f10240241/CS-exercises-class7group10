@@ -1,9 +1,13 @@
 body{
-    color: #060a32;
+    color: #021910;
     margin: 0px;
     }
     h1{
         font-size: 50px;
+        margin: 0px;
+    }
+    i{
+        font-size: 35px;
     }
     #container {
         display: flex;
@@ -12,7 +16,7 @@ body{
     
     .sidebar {
         width: 20%;
-        margin: 10px 0 10px 0;
+        margin: 50px 0 10px 0;
     }
     
     .sidebar ul {
@@ -35,4 +39,16 @@ body{
     .content {
         width: 80%;
         margin: 10px 0 10px 0;
+    }
+    .heading{
+        font-size: large;
+        text-decoration:underline 2px;
+        text-decoration-color: #308664;
+    }
+    .overview{
+        background-color: #aff7da;
+        border-radius:  20px;
+        margin: 5px 20px 5px 10px;
+        padding: 20px;
+        border: solid 2px #308664;
     }
