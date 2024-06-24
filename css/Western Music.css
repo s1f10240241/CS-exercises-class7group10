@@ -4,10 +4,14 @@ body{
     }
     h1{
         font-size: 50px;
-        margin: 0px;
+        margin: 5px 0px 0px 20px;
     }
     i{
         font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
+        margin-left: 30px;
     }
     #container {
         display: flex;
@@ -21,15 +25,18 @@ body{
     
     .sidebar ul {
         margin: 0px;
-        padding: 0 10px 0 10px;
+        padding: 0 20px 0 10px;
+        background-color: #dcecec;
+        border: solid 2px #70b89b;
+        border-radius: 10px;
+        
     }
-    
     .sidebar li {
-        display: block;
-        margin: 0px 0px 5px 0px;
-        padding: 5px 5px 5px 5px;
-        border-right: solid 2px #cccccc;
-        background-color: #eeeeee;
+        font-size: 20px;
+        text-decoration: underline 2px;
+        text-decoration-color: #a9c0c0;
+        padding: 10px 0px 5px 10px;
+
     }
     
     .sidebar a {
@@ -46,9 +53,9 @@ body{
         text-decoration-color: #308664;
     }
     .overview{
-        background-color: #aff7da;
+        background-color: #ccdbd5;
         border-radius:  20px;
         margin: 5px 20px 5px 10px;
         padding: 20px;
-        border: solid 2px #308664;
+        border: solid 2px #70b89b;
     }
