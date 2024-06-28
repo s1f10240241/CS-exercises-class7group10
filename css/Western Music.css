@@ -74,3 +74,6 @@ body{
         padding-top: 20px;
         border-bottom:solid 3px #a0a55e;
     }
+    a{
+        font-size: 20px;
+    }
