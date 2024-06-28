@@ -38,7 +38,7 @@ body{
         font-size: 20px;
         text-decoration: underline 2px;
         text-decoration-color: #a9c0c0;
-        padding: 10px 0px 5px 10px;
+        padding: 30px 0px 5px 10px;
 
     }
     
@@ -51,12 +51,26 @@ body{
         margin: 10px 0 10px 20%;
     }
     .heading{
-        font-size: large;
+        font-size: 35px;
         text-decoration:underline 2px;
         text-decoration-color: #308664;
     }
     .overview{
         margin: 5px 20px 5px 10px;
         padding: 20px;
-        border-bottom: solid 2px #70b89b;
+    }
+    .explanation{
+        width: 60%;
+    }
+    .kokunai{
+        padding-top: 20px;
+        border-bottom:solid 3px #a05555;
+    }
+    .kaigai{
+        padding-top: 20px;
+        border-bottom:solid 3px #8b4d82;
+    }
+    .ryukou{
+        padding-top: 20px;
+        border-bottom:solid 3px #a0a55e;
     }
