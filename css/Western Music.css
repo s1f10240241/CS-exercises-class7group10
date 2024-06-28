@@ -1,6 +1,7 @@
 body{
     color: #021910;
     margin: 0px;
+    background-color: #edf4f4;
     }
     h1{
         font-size: 50px;
@@ -19,16 +20,18 @@ body{
     }
     
     .sidebar {
+        float: left;
+        position: fixed;
         width: 20%;
-        margin: 50px 0 10px 0;
+        margin: 0;
     }
     
     .sidebar ul {
-        margin: 0px;
-        padding: 0 20px 0 10px;
+        margin: 0;
+        padding: 10% 20px 100% 0;
         background-color: #dcecec;
-        border: solid 2px #70b89b;
-        border-radius: 10px;
+        border-right: solid 2px #70b89b;
+
         
     }
     .sidebar li {
@@ -45,7 +48,7 @@ body{
     }
     .content {
         width: 80%;
-        margin: 10px 0 10px 0;
+        margin: 10px 0 10px 20%;
     }
     .heading{
         font-size: large;
@@ -53,9 +56,7 @@ body{
         text-decoration-color: #308664;
     }
     .overview{
-        background-color: #ccdbd5;
-        border-radius:  20px;
         margin: 5px 20px 5px 10px;
         padding: 20px;
-        border: solid 2px #70b89b;
+        border-bottom: solid 2px #70b89b;
     }
